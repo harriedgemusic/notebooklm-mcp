@@ -51,6 +51,14 @@ This server exposes the following MCP tools:
 - `list_notebooks`: Lists all your Notebooks (returns their IDs and Titles).
 - `get_notebook_sources`: Retrieves the data sources for a specific notebook.
 - `ask_notebook`: Passes a natural language query to a specific notebook and returns the AI-generated answer.
+- `select_notebook`: Selects a notebook by ID and creates a local directory for it.
+- `create_note`: Creates a new text note in the specified notebook.
+- `download_notes`: Downloads all notes from a specific notebook into a local subfolder.
+- `generate_audio`: Generates an Audio Overview (podcast) for a notebook.
+- `generate_video`: Generates a Video Overview for a notebook.
+- `generate_slides`: Generates a Slide Deck for a notebook.
+- `generate_infographic`: Generates an Infographic for a notebook.
+- `generate_report`: Generates a Report (Briefing Doc, Study Guide, Blog Post, Custom) for a notebook.
 
 ## Using with Claude Desktop or Antigravity
 
